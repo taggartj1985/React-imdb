@@ -10,11 +10,9 @@ const FilmList = (props) => {
 
   return (
     <Fragment>
-    <ul>
-    <li>
+  
       {filmNodes}
-      </li>
-      </ul>
+
     </Fragment>
   )
 }

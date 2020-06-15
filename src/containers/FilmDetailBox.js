@@ -40,11 +40,9 @@ render(){
   return (
     <div>
     <h2>Films Released In The UK</h2>
-      <ul>
-        <li>
+
     <FilmList films={this.state.films}/>
-        </li>
-      </ul>
+
     <a href="https://www.imdb.com/calendar/?region=gb">View more upcoming releases</a>
     </div>
   )

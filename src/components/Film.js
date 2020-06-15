@@ -2,9 +2,11 @@ import React from 'react';
 
 const Film = (props) => {
   return(
-    <div>
+    <ul>
+    <li>
     <a href={props.film.url}>{props.film.name}</a>
-    </div>
+    </li>
+    </ul>
   )
 
 }
