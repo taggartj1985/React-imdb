@@ -3,8 +3,7 @@ import React from 'react';
 const Film = (props) => {
   return(
     <div>
-    <p>{props.film.name}</p>
-    <a href={props.film.url}>Details</a>
+    <a href={props.film.url}>{props.film.name}</a>
     </div>
   )
 
